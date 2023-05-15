@@ -5,6 +5,7 @@
 ````dart
 debugShowCheckedModeBanner: false,
 ````
+![image](https://github.com/Himabitoo/flutter-study/assets/94416199/6f336f60-61dd-4038-875e-721e784f530f)
 
 ナビゲーションの追加
 
