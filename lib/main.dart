@@ -15,6 +15,26 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           title: Text('動画・画像投稿アプリ'),
         ),
+        body: Text('こんばんわ'),
+        bottomNavigationBar: BottomNavigationBar(
+          items: [
+
+            BottomNavigationBarItem(
+                label: 'ホーム',
+                icon: Icon(Icons.home)
+            ),
+
+            BottomNavigationBarItem(
+                label: 'プロフィール',
+                icon: Icon(Icons.verified_user)
+            ),
+
+            BottomNavigationBarItem(
+                label: 'その他',
+                icon: Icon(Icons.settings)
+            )
+          ],
+        ),
       ) ,
     );
   }
