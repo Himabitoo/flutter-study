@@ -5,7 +5,3 @@
 *.rc linguist-detectable=false
 *.h linguist-detectable=false
 *.cmake linguist-detectable=false
-*cmake linguist-detectable=false
-*Cmake linguist-detectable=false
-cmake* linguist-detectable=false
-Cmake* linguist-detectable=false
