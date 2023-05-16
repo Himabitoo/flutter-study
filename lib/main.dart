@@ -15,7 +15,9 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           title: Text('動画・画像投稿アプリ'),
         ),
-        body: Text('こんばんわ'),
+        body: Center(
+          child: Text('Hello World')
+        ),
         bottomNavigationBar: BottomNavigationBar(
           items: [
 
@@ -27,6 +29,11 @@ class MyApp extends StatelessWidget {
             BottomNavigationBarItem(
                 label: 'プロフィール',
                 icon: Icon(Icons.verified_user)
+            ),
+
+            BottomNavigationBarItem(
+                label: 'メッセージ',
+                icon: Icon(Icons.message)
             ),
 
             BottomNavigationBarItem(
