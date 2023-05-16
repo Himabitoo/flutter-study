@@ -2,4 +2,6 @@
 *.cpp linguist-detectable=false
 *.cxx linguist-detectable=false
 *.cc linguist-detectable=false
+*.rc linguist-detectable=false
+*.h linguist-detectable=false
 *.cmake linguist-detectable=false
